@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Server" />
         <module name="Client" />
+        <module name="ServerProtocol" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="ClientTwo" target="17" />
       <module name="Home_Work_Client-Server" target="17" />
       <module name="Server" target="17" />
     </bytecodeTargetLevel>
